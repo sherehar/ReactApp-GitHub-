@@ -47,7 +47,7 @@ class App extends Component {
         c<HeaderComponent/>
         <nav className="navbar navbar-dark bg-dark">
           <div className="container-fluid">
-            <a href="/" className="navbar-brand">GitHub user's personal data</a>
+            <a href="/" className="navbar-brand"><i className="fa fa-github"></i> GitHub user's personal data</a>
             <form className="d-flex">
               <input className="form-control me-2" name="userName" onChange={this.onChange} value={userName} placeholder="Search" aria-label="Search"/>
               <button className="btn btn-outline-light" type="submit" onClick={this.onClick}>Search</button>
