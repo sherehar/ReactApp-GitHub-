@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import FooterComponent from './components/Footer'
+import HeaderComponent from './components/Header'
 import './App.css';
 
 class App extends Component {
@@ -42,6 +44,7 @@ class App extends Component {
     const {userName, userInformation, userRepositories} =this.state
     return (
       <div className="container">
+        c<HeaderComponent/>
         <nav className="navbar navbar-dark bg-dark">
           <div className="container-fluid">
             <a href="/" className="navbar-brand">GitHub user's personal data</a>
@@ -88,7 +91,8 @@ class App extends Component {
             </div>
           </div>
         }
-        
+         <FooterComponent/>
+
       </div>
       
     )
