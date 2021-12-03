@@ -35,3 +35,14 @@ h1{
   font-weight: bold;
   font-size: 34px;
 }
+.fa{
+  font-size: 32px;
+  color:white;
+}
+nav{
+  border-radius: 5px;
+}
+.navbar-brand{
+  font-size: 25px;
+
+}
