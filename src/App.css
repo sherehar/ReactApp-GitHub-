@@ -25,3 +25,13 @@
 h1{
   text-align: center;
 }
+.footer{
+  height: 50px;
+  text-align: center;
+}
+.header{
+  height: 70px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+}
