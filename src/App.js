@@ -33,7 +33,7 @@ class App extends Component {
       .catch(err => console.log(err))
   onClick = (e) => {
     e.preventDefault()
-    this.setState({userInformation:null, userRepositories:[]}
+    this.setState({userInformation:null, userRepositories:[]})
     this.fetchAPI(`${this.state.userName}`, "userInformation")
     this.fetchAPI(`${this.state.userName}/repos`,"userRepositories")
     this.setState({userName:""})
